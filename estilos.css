@@ -1,0 +1,16 @@
+#tabla1{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 1px solid #000;
+    text-align: center;
+    border-collapse: collapse;
+    width: 550px;
+    margin: 0 auto;
+}
+#tabla1 th{
+    font-size: 1.4em;
+}
+#tabla1 td{
+    border: 1px solid #000;
+
+}
