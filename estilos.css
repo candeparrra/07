@@ -1,4 +1,4 @@
-#tabla1{
+#tabla1 {
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     border: 1px solid #000;
@@ -7,10 +7,67 @@
     width: 550px;
     margin: 0 auto;
 }
-#tabla1 th{
+
+#tabla1 th {
     font-size: 1.4em;
 }
-#tabla1 td{
+
+#tabla1 td {
     border: 1px solid #000;
 
+}
+
+body {
+    background-color: rgb(255, 255, 255)
+}
+
+table {
+    width: 1170px;
+    margin: 200px auto;
+    height: 400px;
+    border-collapse: collapse;
+
+}
+
+.nombres {
+    font-family: 'Catamaran', sans-serif;
+    color: #444444;
+    font-size: 23px;
+    line-height: 22px;
+}
+
+td {
+    font-family: 'Oswald', sans-serif;
+    color: #878787;
+    font-size: 25px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+th {
+    background-color: #333333;
+    font-family: 'Oswald', sans-serif;
+    color: #AAAAAA;
+    font-size: 20px;
+    text-align: inherit;
+}
+.puesto{
+background-image: url(assets/hola.png);
+color: #111111;
+font-size: 35px;
+width: 78px;
+background-size: contain;
+}
+.header{
+
+    display: flex;
+    background-color: #b1b1b1;
+    justify-content: space-evenly;
+    list-style: none;
+}
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+}
+nav li{
+    display: inline;
 }
